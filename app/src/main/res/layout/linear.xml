@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/background"
+              android:layout_height="match_parent"
+			  android:gravity="center">
+
+	<ImageView android:layout_width="150dp"
+	           android:layout_height="150dp"
+	           android:src="@drawable/logo"
+			   />
+	<TextView android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:id="@+id/iv1"
+	          android:text="Iniciar Sesión"
+	          android:layout_marginTop="8dp"
+	          android:textColor="@color/color1"
+	          android:layout_marginBottom="10dp" android:textSize="30sp"/>
+
+	<EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+	          android:background="@drawable/bg_et"
+			  android:layout_marginBottom="10dp"
+			  android:ems="12"
+			  android:id="@+id/et5"
+			  android:hint="Usuario"
+			  android:gravity="center"/>
+
+	<EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+	          android:background="@drawable/bg_et"
+	          android:layout_marginBottom="10dp"
+	          android:ems="12"
+	          android:id="@+id/et2"
+			  android:hint="Contraseña"
+			  android:gravity="center"/>
+
+	<Button android:layout_width="wrap_content"
+	        android:text="Iniciar"
+	        android:layout_height="wrap_content" android:background="@drawable/bg_bt_iniciar_2"
+	        android:textColor="@color/color1"/>
+
+	<TextView android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+			  android:text="¿Olvidaste tu Constraseña?"
+			  android:textColor="@color/color1"
+			  android:layout_marginTop="8dp"
+			  android:layout_marginBottom="8dp"/>
+
+	
+	<LinearLayout android:layout_width="match_parent"
+	              android:orientation="horizontal"
+	              android:layout_marginTop="10dp"
+	              android:gravity="center"
+	              android:layout_height="wrap_content">
+
+		<ImageView android:layout_width="30dp" android:layout_height="30dp"
+		           android:layout_marginRight="30dp"
+		           android:src="@drawable/facebook"/>
+
+		<TextView android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+				  android:text="Iniciar Sesión con Facebook"
+				  android:textColor="@color/color1"/>
+
+	</LinearLayout>
+</LinearLayout>
